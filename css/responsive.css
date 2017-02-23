@@ -1,0 +1,878 @@
+@media only screen and (max-width: 1580px){
+	.button-member{display:none;}
+	.kode-content{
+		/*padding:130px 0;*/
+	}
+}
+
+/*
+=================================================
+				UP FROM 1200PX
+=================================================
+*/ 
+@media (min-width: 1200px) {
+  
+}
+/*
+=================================================
+			FROM 992PX TO 1199PX
+=================================================
+*/ 
+@media (min-width: 992px) and (max-width: 1199px) {
+	.kode-nav ul li a{
+		font-size:12px;
+	}
+	.kode-content h2{
+		font-size:48px;
+		line-height:60px;
+	}
+	.kf_accordian_hdg{
+		padding:15px 20px;
+	}
+	.kf_accordian_hdg h5{
+		font-size:16px;
+	}
+	.kode-blog-newcontent .meta-event{
+		font-size:13px;
+		margin-bottom:10px;
+	}
+	.our-team-first{
+		background-position:right bottom;
+	}
+	.kf_who_am figure{
+		float:left;
+		width:100%;
+		margin-bottom:20px;
+	}
+	.kf_who_am_des{
+		float:left;
+		width:100%;
+		padding:0px;
+	}
+	.kf_who_am_des ul{
+		width:100%;
+	}
+	.kf_who_am_des > ul > li > span, .kf_who_am_des > ul > li > a{
+		float:left;
+	}
+	ul.kf_conference li{
+		padding:10px;
+		font-size:12px;
+	}
+	.kf_comment_meta > span{
+		margin:0px 10px 10px 0px;
+	}
+	.like_fb, .like_amount{
+		margin-right:15px;
+		font-size:12px;
+	}
+	.kf_aside_folwer ul li{
+		padding:20px;
+	}
+	.like_page a{
+		font-size:12px;
+	}
+	.kode-blog-2 .kode-thumb-caption::after{
+		width:200px;
+	}
+	.kode-health-over li{
+		font-size:16px;
+	}
+	.counter-meta{
+		max-width:100%;
+	}
+	.speaker-event-content ul a{
+		height:30px;
+		width:30px;
+		padding:0px;
+		font-size:14px;
+		line-height:30px;
+	}
+	.kode_calender .fc-toolbar h2{
+		font-size:14px;
+		margin-top:5px;
+	}
+	/*Party Index CSS*/
+	.kf_party_header .kf_party_logo{
+		padding:22px 10px 20px 0;	
+	}
+	.kf_party_banner_caption{
+		margin:-140px 0 0;	
+	}
+	.kf_party_banner_caption h2{
+		font-size:55px;
+		margin:0 0 25px;
+		padding:0 0 8px;	
+	}
+	.kf_party_banner_caption p{
+		margin:0 0 20px;	
+	}
+	.kf_party_event_des{
+		padding:0 20px 0 0;	
+	}
+	.kf_party_header .kf_party_navigation ul li a{
+		padding:35px 15px 36px;	
+	}
+	.kf_new_conf_time{
+		width: 17%;
+	}
+	.kf_new_conf_des_wrap{
+		width: 83%;
+	}
+	.kf_new_conf_orgnizr{
+		width: auto;
+	}
+	.kf_new_conf_btn_link{
+		width: auto;
+		float: right;
+	}
+}
+/*
+=================================================
+			FROM 0PX TO 979PX
+=================================================
+*/ 
+@media (max-width: 991px) {
+	#mobile-header{
+		display:block;
+	}
+	.kode-nav{
+		display:none;
+	}
+	.kode-logo{
+		display:inline-block;
+		float:none;
+		padding-top:0px;
+	}
+	.col-right{
+		float:left;
+		width:100%;
+	}
+	.header-social{
+		padding:0px;
+		float:none;
+		display:inline-block;
+	}
+	#kode-header{
+		text-align:center;
+		border:none;
+		background-color:rgba(0,0,0,0.5);
+		padding:15px 0px;
+	}
+	.Kode-page-heading{
+		padding:15px 0px;
+	}
+	.event-slider-box, .event-boxslider{
+		width:100%;
+		padding:0;
+		border:none;
+		height:auto;
+	}
+	.event-slider-box:after, .event-borders{
+		display:none;
+	}
+	.event-boxslider{
+		position:static;
+	}
+	.bx-wrapper img{
+		max-width:100%;
+		width:100%;
+	}
+	.kode-content h2{
+		font-size:30px;
+	}
+	.kode-content .overflow{
+		margin:0px 0px 20px 0px;
+	}
+	.kode-content p{
+		display:none;
+	}
+	.kode-slider-content{
+		width:550px;
+	}
+	.kode-content{
+		padding:170px 0 0;
+	}
+	.register-holder{
+		position:static;
+		background-color:#ccc;
+	}
+	.register-button{
+		width:100%;
+	}
+	.kode-slider .bx-wrapper .bx-pager, .kode-slider .bx-wrapper .bx-controls-auto{
+		bottom:0;
+	}
+	.icon-srvc{
+		height:65px;
+		width:65px;
+		margin-right:20px;
+		padding:16px 0px;
+		font-size:30px;
+	}
+	.kode-overview-holder:before, .kode-overview-holder:after{
+		opacity:0.1;
+	}
+	.scheduletabs .panel.panel-default{
+		padding:10px 0px;
+	}
+	.next-event-counter .countdown li{
+		width:75px;
+	}
+	.next-event-counter .countdown li span{
+		font-size:28px;
+		padding:0px;
+	}
+	.next-event-counter .countdown li p{
+		font-size:12px;
+		margin:0px;
+	}
+	#main .next-event-counter h2{
+		font-size:30px;
+	}
+	.kode-price-header h3{
+		font-size:40px;
+		line-height:40px;
+	}
+	.kode-price-header{
+		font-size:14px;
+		padding:20px 0px;
+	}
+	.kode-price-content{
+		font-size:14px;
+		padding:20px 10px;
+	}
+	.kode-price-content li{
+		padding:10px 0px;
+	}
+	.kode-price-footer{
+		padding:18px 0px;
+	}
+	.price-box-frame.first-box, .price-box-frame.last-box{
+		padding:0px;
+	}
+	.price-box-frame.first-box:before, .price-box-frame.last-box:after{
+		display:none;
+	}
+	.kodeevent-blog-post{
+		margin:0px 0px 30px 0px;
+	}
+	.kode-error > h4{
+		font-size:20px;
+	}
+	.kode-error > p{
+		text-transform:none;
+	}
+	.filter-item{
+		font-size:14px;
+	}
+	.kode_fortfolio_detail .caption-holder{
+		padding:70px 0px;
+	}
+	.our-team-second .our-speaker-social-section, .our-team-first .our-speaker-social-section{
+		padding:70px 0px;
+	}
+	.our-team-first{
+		background-position:right 80px;
+		background-size:contain;
+	}
+	.our-team-second{
+		background-position:left 80px;
+		background-size:contain;
+	}
+	.our-team-second .our-speaker-social-section, .our-team-first .our-speaker-social-section{
+		width:60%;
+	}
+	.kf_who_am figure{
+		width:100%;
+		margin-bottom:30px;
+	}
+	.kf_who_am_des{
+		float:left;
+		width:100%;
+		padding:0px;
+	}
+	.kf_who_am_des ul{
+		width:100%;
+	}
+	ul.kf_conference li{
+		width:33.333%;
+	}
+	.counter-meta{
+		float:left;
+		max-width:100%;
+		width:100%;
+	}
+	.kode-slider-speaker .thumb{
+		margin:0px 0px 30px 0px;
+	}
+	/*party Index CSS*/
+	.kf_party_seat_detail,
+	.kf_schedule_day1_des,
+	.kf_party_schedule_day_2{
+		margin:0px 0px 30px;	
+	}
+	.kf_party_gallery_nav{
+		margin:0px 0px 15px;	
+	}
+	.kf_part_blog_wrap,
+	.kf_party_news_wrap{
+		margin:0px 0px 30px;	
+	}
+	.kf_party_navigation{
+		display:none;	
+	}
+	.kf_great_party{
+		top:0px;	
+	}
+	.kf_part_services_bg{
+		margin:0px;	
+	}
+	.kf_great_party_bg{
+		padding:70px 0px;	
+	}
+	.kf_party_event_des{
+		margin:0px 0px 20px;	
+	}
+	.kf_great_party{
+		width:100%;	
+	}
+	.kf_great_party .countdown > li{
+		width:45%;	
+	}
+	.kf_party_services_list:hover .col-md-6{
+		width:100%;	
+	}
+	.dl-menuwrapper{
+		display:block;	
+	}
+	.kf_party_navigation{
+		border:0px;	
+	}
+	.dl-menuwrapper{
+		margin:28px 20px 25px 0px;	
+	}
+	.dl-menuwrapper .dl-menu{
+		left:-190px;	
+	}
+	.kf_new_con_wrap{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.kf_new_conf_time{
+		width: 22%;
+	}
+	.kf_new_conf_des_wrap{
+		width: 78%;
+	}
+	.kf_new_conf_btn_link{
+		width: 100%;
+		text-align: center;
+	}
+
+	.kf_new_conf_orgnizr{
+		width: 100%;
+		text-align: center;
+	}
+	.kf_new_conf_orgnizr figure{
+		float: none;
+		display: inline-block;
+	}
+	.kf_new_conf_orgnizr_name{
+		float: none;
+		display: inline-block;
+		padding: 8px 0 10px;
+	}
+
+}
+/*
+=================================================
+			FROM 768PX TO 979PX
+=================================================
+*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+	
+  
+}
+/*
+=================================================
+			FROM 0PX TO 767PX
+=================================================
+*/
+@media (max-width: 767px) {
+	#kode-header{
+		position:relative;
+		background-color:#333;
+	}
+	.kode-content{
+		padding:50px 0px 0px 0px;
+	}
+	.kode-slider-content{
+		width:90%;
+	}
+	.kode-content h2{
+		line-height:normal;
+	}
+	.kode-content h3{
+		font-size:16px;
+		line-height:normal;
+	}
+	.button-holder{
+		display:none;
+	}
+	.register-content{
+		float:left;
+		padding:20px 20px 18px;
+	}
+	.kode-overview-holder::before, .kode-overview-holder::after{
+		display:none;
+	}
+	.facts-counter .icons-wrap{
+		font-size:40px;
+	}
+	.kf_counter .counter{
+		font-size:42px;
+		line-height:46px;
+	}
+	.kf_counter span{
+		font-size:14px;
+	}
+	.kf_counter{
+		text-align:left;
+		padding:0 0 0 75px;
+	}
+	.kf_counter span{
+		text-align:left;
+	}
+	.kf_heading_2 h3, .kf_heading_4 h3{
+		font-size:24px;
+	}
+	.facts-row h3{
+		font-size:24px;
+	}
+	.kf_heading_1 h2{
+		font-size:24px;
+	}
+	.button-slide{
+		position:absolute;
+		right:0px;
+		top:-10px;
+	}
+	.scheduletabs .nav-tabs > li{
+		width:33.333%;
+	}
+	.scheduletabs .nav-tabs > li > a{
+		font-size:14px;
+		min-width:inherit;
+		padding:0px;
+	}
+	.scheduletabs .nav-tabs > li > a span{
+		font-size:18px;
+	}
+	.auditorium li{
+		width:33.333%;
+		min-width:inherit;
+	}
+	.auditorium {
+		font-size:14px;
+		line-height:50px;
+		
+	}
+	.announcer-pic{
+		margin:0px 10px 0px 0px;
+	}
+	.scheduletabs .panel-title{
+		font-size:20px;
+	}
+	.scheduletabs .tab-content{
+		padding:10px 20px;
+	}
+	.panel-heading, .panel-body	{
+		padding:0px;
+	}
+	.scheduletabs .panel-title{
+		margin:0px 0px 10px 0px;
+	}
+	.scheduletabs{
+		margin:0px;
+	}
+	.content-blue{
+		min-height:200px;
+		padding:50px 10px 30px;
+	}
+	.next-event-counter{
+		padding:30px 0;
+	}
+	#kode-speaker-causel .owl-controls .owl-buttons div{
+		top:-50px;
+	}
+	#kode-testimonial-causel .owl-controls .owl-buttons div{
+		top:-50px;
+	}
+	.kode-price-box.active, .kode-price-box{
+		margin:0px 0px 30px 0px;
+	}
+	.kode-price-box.active, .kode-price-box:hover{
+		transform:none;
+		-moz-transform:none;
+		-webkit-transform:none;
+	}
+	.kode-footer-text{
+		position:static;
+	}
+	footer .event-map{
+		display:none;
+	}
+	.footer-cols, .kode-event-contact, .kode-latest-blog, .kf_faq_bg, .kode-event-testimonial, .kode-our-pricing, .kode-our-gallery, .kode-speaker-frame, .kode-conference-schedule, .kode-main-services, .kode-overview-holder{
+		padding:30px 0px;
+	}
+	.overview_caption{
+		width:100%;
+	}
+	.overview{
+		background-color:#f2f2f2 ;
+	}
+	.overview:before, .overview:after{
+		display:none;
+		
+	}
+	.overview .overview_caption ul li{
+		padding:15px 0px;
+	}
+	.kode-error > h3{
+		font-size:150px;
+	}
+	.kode-error > p{
+		width:auto;
+	}
+	.kode-error > a{
+		margin-bottom:20px;
+	}
+	.filter-item li a{
+		font-size:12px;
+		padding:7px 10px;
+	}
+	.filter-item li{
+		margin:0px 2px;
+	}
+	.our-team-second .our-speaker-social-section, .our-team-first .our-speaker-social-section{
+		padding:30px 0px;
+	}
+	.our-team-second .our-speaker-social-section > h3, .our-team-first .our-speaker-social-section > h3{
+		font-size:26px;
+	}
+	.our-team-second .our-speaker-social-section > span, .our-team-first .our-speaker-social-section > span{
+		margin:0px 0px 10px 0px;
+	}
+	.our-team-second .our-speaker-social-section > p, .our-team-first .our-speaker-social-section > p{
+		font-size:14px;
+	}
+	/*Party CSS*/
+	.kf_party_banner_caption{
+		display:none;	
+	}
+	..schedule-banner .scheduletabs .tab-content{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.kf_new_conf_time{
+		width: 30%;
+	}
+	.kf_new_conf_des_wrap{
+		width: 70%;
+	}
+	.kf_new_conf_des_wrap::after{
+		left: -21px;
+	}
+	.kf_new_conf_des_wrap::before{
+		left: -30px;
+	}
+	.kf_new_conf_hdg h5{
+		font-size: 18px;
+	}
+	.kf_new_conf_btn_link{
+		width: 100%;
+		text-align: center;
+	}
+	.kf_new_conf_btn_link a:first-of-type{
+		margin: 0 0 5px 0;
+	}
+	.kf_new_conf_orgnizr{
+		width: 100%;
+		text-align: center;
+	}
+	.kf_new_conf_orgnizr figure{
+		float: none;
+		display: inline-block;
+	}
+	.kf_new_conf_orgnizr_name{
+		float: left;
+		padding: 8px 0 10px;
+		width: 100%;
+		text-align: center;
+	}
+}
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (max-width: 480px) {
+	#mobile-header{
+		left:20px;
+	}
+	.kode-content h2{
+		font-size:20px;
+	}
+	.kode-content .overflow{
+		display:none;
+	}
+	.register-content{
+		max-width:220px;
+		padding:20px 10px;
+	}
+	.register-content h3{
+		font-size:16px;
+		margin:0px;
+	}
+	.register-content p{
+		font-size:14px;
+	}
+	.kf_heading_2 h3, .kf_heading_4 h3{
+		font-size:20px;
+	}
+	.facts-counter{
+		vertical-align:middle;
+		text-align:center;
+	}
+	.facts-row h3{
+		font-size:20px;
+	}
+	.facts-counter div.col-md-3{
+		float:left;
+		width:100%;
+		padding:20px 0px;
+		border-top:solid 1px #ccc;
+		-webkit-border-top:solid 1px #ccc;
+	}
+	.facts-counter .icons-wrap{
+		float:none;
+		display:inline-block;
+		padding:0px;
+		vertical-align:middle;
+	}
+	.kf_counter{
+		display:inline-block;
+		padding:0px;
+		vertical-align:middle;
+	}
+	.kf_counter, .kf_counter span{
+		text-align:center;
+		margin:0px;
+	}
+	.button-slide{
+		display:none;
+	}
+	.kf_heading_1 span, .kf_heading_2 span{
+		font-size:14px;
+		line-height:20px;
+	}
+	.icon-srvc{
+		float:none;
+		margin:0px 0px 10px 0px;
+		display:inline-block;
+	}
+	.srvc-content{
+		float:left;
+		width:100%;
+	}
+	.main-service-box{
+		padding:20px;
+		text-align:center;
+	}
+	.scheduletabs .panel-title{
+		font-size:18px;
+		line-height:20px;
+	}
+	.scheduletabs .panel-body p{
+		font-size:14px;
+	}
+	.next-event-counter .countdown li{
+		margin:0px 3px;
+		width:60px;
+	}
+	.subscribe-form input[type="submit"]{
+		padding:15px 10px;
+	}
+	.kode-blog-newcontent .meta-event{
+		font-size:12px;
+		margin:0 15px 17px 0;
+	}
+	.Kode-page-heading{
+		text-align:center;
+	}
+	.Kode-page-heading ul{
+		float:none;
+		display:inline-block;
+	}
+	.overview_caption > h2{
+		font-size:20px;
+	}
+	.overview_caption li h5{
+		font-size:16px;
+	}
+	.filter-item li{
+		margin:2px;
+	}
+	.our-team-first, .our-team-second{
+		background:none;
+	}
+	.our-team-second .our-speaker-social-section, .our-team-first .our-speaker-social-section{
+		float:left;
+		width:100%;
+	}
+	.kf_who_am_des > ul > li > span, .kf_who_am_des > ul > li > a{
+		padding:10px;
+		font-size:14px;
+	}
+	.like_fb, .like_amount{
+		margin-right:12px;
+		font-size:12px;
+	}
+	.kf_aside_folwer ul li{
+		padding:10px;
+	}
+	.kode-blog-style{
+		float:left;
+		width:100%;
+		padding:0px;
+	}
+	.blog-2-side-bar{
+		float:left;
+		width:100%;
+	}
+	.kode-blog-2 .blog-2-side-bar ul li{
+		width:auto;
+		padding:0px 5px;
+	}
+	.kode-blog-2 .blog-2-side-bar ul li strong{
+		text-align:center;
+		width:100%;
+	}
+	.kode-blog-2 .blog-2-side-bar ul li a{
+		border:none;
+		font-size:12px;
+		text-align:center;
+	}
+	.kode-health-conference .kode-health-over{
+		position:static;
+		margin:10px 0px 0px 0px;
+		float:left;
+		width:100%;
+	}
+	.kode-health-over li{
+		font-size:12px;
+		padding:10px 10px;
+	}
+	ul.kf_conference li{
+		float:left;
+		width:100%;
+	}
+	.kf_comment_meta > span{
+		float:left;
+		width:100%;
+		margin:0px 0px 10px 0px;
+	}
+	.kode-health-over li > a{
+		margin:0px 10px 0px 0px;
+	}
+	ul.kf_social_icon{
+		float:left;
+		width:100%;
+		text-align:center;
+	}
+	ul.kf_social_icon li{
+		float:none;
+		display:inline-block;
+	}
+	.kode_event_counter_section li span{
+		font-size:16px;
+		padding:0px 14px;
+	}
+	.kode_event_counter_section ul li p{
+		font-size:9px;
+	}
+	.kode_event_counter_section ul li::before{
+		font-size:30px;
+	}
+	.kode_calender .fc-toolbar h2{
+		font-size:14px;
+		margin:6px 0px 0px 0px;
+	}
+	/*Blog Detail Page*/
+	.kf_blog_detail_des ul li{
+		width:100%;	
+	}
+	.kf_blog_detail_des ul li a{
+		border-left:0px;
+		padding-left:0px;	
+	}
+	.kf_comment_des{
+		width:100%;
+		float:left;
+		text-align:center;
+		padding:0px 5px;	
+	}
+	.kf_admin_comment figure img{
+		width:auto;	
+	}
+	.kf_admin_comment figure{
+		display:inline-block;
+		text-align:center;
+		width:100%;
+		margin-bottom:10px;	
+	}
+	.kf_comment_des > a{
+		line-height:normal	
+	}
+	.kf_comment ul ul{
+		padding:0px;	
+	}
+	.kf_reply_field input[type="submit"], .kf_reply_field button{
+		margin-bottom:30px;	
+	}
+	.kf_new_conf_time{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.kf_new_conf_des_wrap{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.kf_new_conf_des_wrap::after{
+		left: -1px;
+		bottom: -62px;
+	}
+	.kf_new_conf_des_wrap::before{
+		left: -10px;
+	}
+	.kf_new_conf_hdg h5{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		display: block;
+	}
+	.kf_new_conf_hdg i{
+		display: none;
+	}
+	.kf_new_conf_btn_link a{
+		font-size: 14px;
+		padding-right: 13px;
+		padding-left: 13px;
+	}
+	.kf_new_conf_btn_link a i{
+		display: none;
+	}
+}
+

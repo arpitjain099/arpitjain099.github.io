@@ -1,0 +1,453 @@
+/*
+	  ==============================================================
+		   OUR SPEAKER DETAIL WIDGET CSS START
+	  ==============================================================
+*/
+.facebook{
+	background-color:#215b9a;	
+}
+.twitter{
+	background-color:#00adf2;	
+}
+.youtube{
+	background-color:#dd332c;	
+}
+.dribble{
+	background-color:#f85993;	
+}
+.behance{
+	background-color:#5383e9;	
+}
+.gplus{
+	background-color:#d84f3b;	
+}
+.instagram{
+	background-color:#ae968b;	
+}
+/*aside bar Heading Style*/
+.aside_widget_hdg,
+.aside_speaker {
+	float:left;
+	width:100%;
+	border: 1px solid #e6e6e6;
+	margin: 0px 0px 40px;
+	position: relative;
+	box-shadow:0 1px 8px 0px rgba(0, 0, 0, 0.18);
+}
+.aside_widget_hdg h6{
+	color:#2a2a2a;
+	text-align:center;
+	font-weight:normal;
+	text-transform:uppercase;
+	border-bottom:1px solid #eaeaea;
+	padding:15px 0px;	
+}
+
+/*Connect Me Style*/
+.kf_connect ul{
+	padding:30px 0px;
+	text-align:center;	
+}
+.kf_connect ul li{
+	display:inline-block;
+	position:relative;
+	transition:all 0.3s ease-in-out;
+}
+.kf_connect ul li:hover{
+	box-shadow:0px 5px 10px 0px rgba(0,0,0,0.2);
+	border-radius:15px;
+}
+
+.kf_connect ul li a{
+	display:block;
+	font-size:20px;
+	color:#fff;
+	width:40px;
+	height:40px;
+	line-height:38px;	
+}
+
+/*
+	  ==============================================================
+		   ASIDE BAR SPEAKERS WIDGET CSS START
+	  ==============================================================
+*/
+.aside_speaker{
+	padding:25px 0px;
+	text-align:center;
+	margin-bottom:40px;	
+}
+.aside_speaker figure{
+	margin-bottom:10px;
+	display:inline-block;	
+}
+.aside_speaker figure img{
+	width:auto;
+	height:auto;	
+}
+.aside_spekr_des{
+	float:left;
+	width:100%;	
+}
+.aside_spekr_des h6{
+	font-size:14px;
+	color:#2a2a2a;
+	margin-bottom:4px;
+	text-transform:uppercase;	
+}
+.aside_spekr_des span{
+	display:inline-block;
+	color:#333333;
+	margin:0px 0px 30px;	
+}
+ul.kf_conference{
+	float:left;
+	width:100%;
+	border-top:1px solid #eaeaea;
+	border-bottom:1px solid #eaeaea;
+	margin-bottom:20px;	
+}
+ul.kf_conference li{
+	float:left;
+	border-right:1px solid #eaeaea;	
+	color:#8c8b8b;
+	padding:10px 17px;
+}
+ul.kf_conference li span{
+	font-weight:bold;
+	color:#2a2a2a;
+	margin-bottom:4px;
+	display:block;	
+}
+ul.kf_conference li:last-child{
+	border-right:0px;	
+}
+.kf_comment_meta{
+	float:left;
+	width:100%;
+	padding:0px 30px;	
+}
+.kf_comment_meta > span{
+	float:left;
+	margin-right:8px;	
+}
+.kf_comment_meta > span > a{
+	display:inline-block;
+	border:1px solid #e6e6e6;
+	height:30px;
+	padding:0px 9px;
+	color:#333333;
+	line-height:26px;	
+}
+.kf_comment_meta > span > a > i{
+	color:#333;	
+}
+ul.kf_social_icon{
+	border:1px solid #e6e6e6;
+	float:left;	
+}
+ul.kf_social_icon > li{
+	float:left;
+	position:relative;
+	border-left:1px solid #e6e6e6;	
+}
+ul.kf_social_icon > li > a{
+	display:block;
+	color:#8c8b8b;
+	width:30px;
+	height:28px;
+	padding:0px;
+	line-height:30px; 	
+}
+ul.kf_social_icon > li:first-child{
+	border-left:0px;	
+}
+/*
+	  ==============================================================
+		   ASIDE BAR SPEAKERS WIDGET CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   ASIDE BAR TWITTER WIDGET CSS START
+	  ==============================================================
+*/
+.kf_aside_twitter{
+	float:left;
+	width:100%;	
+	margin-bottom:40px;
+}
+.kf_aside_twitter h6{
+	padding:15px;
+	color:#fff;
+	text-transform:capitalize;
+	border-bottom:1px solid #fff;
+	margin-bottom:35px;	
+}
+.kf_aside_twitter h6 i{
+	margin-right:20px;	
+}
+.kf_aside_twitter .bx-wrapper{
+	padding:0px 30px 40px;	
+}
+.kf_aside_twitter ul li{
+	float:left;
+	position:relative;	
+}
+.kf_aside_twitter ul li p{
+	color:#fff;
+	font-style:italic;
+	margin-bottom:20px;
+}
+.kf_aside_twitter span{
+	color:#fff;
+	display:inline-block;	
+}
+/*BX style*/
+.kf_aside_twitter .bx-wrapper .bx-pager{
+	padding:0px;	
+}
+.kf_aside_twitter .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:37px;
+	width:auto;
+	right:30px;	
+}
+.kf_aside_twitter .bx-wrapper .bx-pager.bx-default-pager a{
+	background-color:#000;	
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active{
+	background-color:#fff;	
+}
+/*
+	  ==============================================================
+		   ASIDE BAR TWITTER WIDGET CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   ASIDE BAR FOLLOWERS WIDGET CSS START
+	  ==============================================================
+*/
+.kf_aside_folwer{
+	border:1px solid #e6e6e6;
+	margin-bottom:40px;	
+}
+.kf_aside_folwer,
+.kf_aside_folwer ul
+{
+	float:left;
+	width:100%;	
+}
+.kf_aside_folwer ul li{
+	float:left;
+	width:100%;
+	padding:20px 30px;
+	border-top:1px solid #e6e6e6;
+	transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+.kf_aside_folwer ul li:hover{
+	box-shadow:0px 5px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow:0px 5px 10px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow:0px 5px 10px 0px rgba(0,0,0,0.2);
+}
+.kf_aside_folwer ul li:first-child{
+	border-top:0px;	
+}
+.like_fb,
+.like_amount{
+	float:left	
+}
+.like_page{
+	float:right;	
+}
+.like_fb,
+.like_amount{
+	margin-right:38px;
+	line-height:20px;
+}
+.like_fb a{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	color:#fff;
+	font-size:20px;
+	line-height:38px;
+	text-align:center;	
+}
+.like_amount p{
+	color:#2a2a2a;
+	margin:0px;
+}
+.like_amount span{
+	color:#8c8b8b;
+	display:inline-block;
+	text-transform:uppercase;
+}
+.like_page a{
+	display:inline-block;
+	color:#2a2a2a;
+	padding:8px 0px;
+	width:96px;
+	text-align:center;
+	border:1px solid #e6e6e6;
+	text-transform:uppercase;
+	line-height:normal;
+	box-shadow:0 1px 8px 0px rgba(0, 0, 0, 0.18);	
+}
+/*
+	  ==============================================================
+		   ASIDE BAR FOLLOWERS WIDGET CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   ASIDE BAR INSTAGRAM WIDGET CSS START
+	  ==============================================================
+*/
+.instagram-widget {
+    border: medium none;
+    position: relative;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+    margin: 0 0 40px;
+	float:left;
+	width:100%;
+}
+.instagram-widget-title {
+    border-bottom: 1px solid #343334;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.instagram-widget-title h2 {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    text-transform: capitalize;
+	margin:0;
+}
+.instagram-widget-title h2 span {
+    padding: 0 0 0 25px;
+}
+.instagram-slider li {
+    left: 0;
+}
+.instagram-widget .pic-holder {
+    overflow: hidden;
+    position: relative;
+}
+.instagram-over {
+    background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
+    bottom: 0;
+    color: #ffffff;
+    left: 0;
+    opacity: 0;
+    padding: 160px 20px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.5s ease 0s;
+}
+.instagram-widget:hover .instagram-over {
+    opacity: 1;
+}
+.instagram-over .instagram-link {
+    background: rgba(255, 255, 255, 0.15) none repeat scroll 0 0;
+    border: 3px solid #6b6967;
+    border-radius: 50%;
+    color: #ffffff;
+    display: block;
+    font-size: 22px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 14px 5px;
+    width: 56px;
+}
+.instagram-widget .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 30px;
+    z-index: 99;
+}
+.instagram-widget .bx-controls-direction {
+    display: none;
+}
+.instagram-widget .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.instagram-widget .bx-wrapper .bx-pager.bx-default-pager a.active,
+.instagram-widget .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #ffffff none repeat scroll 0 0;
+}
+.instagram-widget .bx-wrapper .bx-pager.bx-default-pager a {
+    background: #7a7877 none repeat scroll 0 0;
+}
+/*
+	  ==============================================================
+		   ASIDE BAR INSTAGRAM WIDGET CSS END
+	  ==============================================================
+*/
+
+
+/*
+	  ==============================================================
+		   ASIDE BAR FULL CALENDER WIDGET CSS START
+	  ==============================================================
+*/
+.kode_calender{
+	float:left;
+	width:100%;
+	
+}
+
+.kode_calender .fc-toolbar{
+	padding: 18px 20px;
+	margin-bottom: 0px;
+	position: relative;
+}
+.kode_calender .fc-toolbar h2{
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0px;
+	width: 100%
+}
+.kode_calender .fc-right button{
+	background:none;
+	border:none;
+	box-shadow: none;
+	padding: 0px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow:none;
+
+}
+.kode_calender .fc-right .fc-today-button{
+	background-color:rgba(0,0,0,0.2);
+	border-radius: 0px;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	padding: 10px 15px;
+
+}
+.kode_volunteer_btn a:hover{
+	opacity:0.9;	
+}
+/*
+	  ==============================================================
+		   ASIDE BAR FULL CALENDER WIDGET CSS END
+	  ==============================================================
+*/

@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700italic,800italic,700,600italic,400italic,600,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(svg-style.css);
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+* {max-height: 1000000px;}
+body {
+	margin:0;
+	min-width:320px;
+	font:14px/24px 'Open Sans', Arial, Helvetica, sans-serif;
+	overflow-y: scroll;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:none;
+}
+/* Heading Typo */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    color: #010101;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0px 0px 0px 0px;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+h2 {
+    font-size: 62px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+	display: block;
+}
+img {border-style:none;}
+a {
+	text-decoration:none;
+	outline:none;
+}
+a:hover {text-decoration:none;}
+input,
+textarea,
+select {
+	font:100% Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#000;
+}
+textarea {
+	overflow: auto;
+	resize: vertical;
+	vertical-align: top;
+}
+form, fieldset {
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	padding:0;
+	border:0;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+input[type="search"] {-webkit-appearance: none;}
+input[type="search"]::-webkit-search-cancel-button {-webkit-appearance: none;}
+input[type="search"]::-webkit-search-decoration {display:none;}
+q {quotes: none;}
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p {margin: 0 0 1.2em;}
+ul{
+	margin:0px;
+	padding:0px;
+}
+li{
+	list-style:none;
+}
+.content .kf_heading_1 h2{
+	margin-top:-3px;
+	line-height:31px;
+}
+.content .kf_heading_3 h2,
+.content .kf_heading_2 h3,.content .kf_heading_4 h3{
+	margin-top:-5px;
+	
+}
+.content .kf_heading_1 span,.content .kf_heading_2 span{
+	line-height:16px;
+	padding:5px 0 26px;
+}
+.content .kf_heading_2 span{
+	padding:2px 0 30px;
+}
+.schedule-banner .scheduletabs .nav-tabs > li > a{
+	padding:21px 10px 17px;
+}
+.scheduletabs .nav-tabs > li > a span{
+	line-height:26px;
+	margin-bottom:3px;
+}
