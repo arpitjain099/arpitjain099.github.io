@@ -1,7 +1,42 @@
 $(document).ready(function(){
 	"use strict";
+	console.log("working");
+  console.log(window.location.href);
 
-	
+$( "#loginbtn" ).click(function() {
+	console.log("login");
+$('#loginmodal').modal('toggle');
+});
+	if(window.location.href.indexOf("index") >= 0)
+  	document.getElementById("home").className="active";
+
+  else if(window.location.href.indexOf("program") >= 0)
+  	document.getElementById("program").className="active";
+
+  else if(window.location.href.indexOf("about") >= 0)
+  	document.getElementById("about").className="active";
+
+  else if(window.location.href.indexOf("previousconference") >= 0)
+  	document.getElementById("pastconf").className="active";
+
+  else if(window.location.href.indexOf("sponsors") >= 0)
+  	document.getElementById("sponsors").className="active";
+
+  else if(window.location.href.indexOf("faq") >= 0)
+  	{
+  		console.log("faq");
+  	document.getElementById("faq_menu").className="active";
+  }
+
+  else if(window.location.href.indexOf("registration") >= 0)
+  	document.getElementById("regist").className="active";
+
+  if(window.location.href.indexOf("faq") >= 0)
+  	{
+  		console.log("faq");
+  	document.getElementById("faq_menu").className="active";
+  }
+
 	/* ---------------------------------------------------------------------- */
 	/*	Back To TOp Script
 	/* ---------------------------------------------------------------------- */
@@ -444,73 +479,3 @@ $(document).ready(function(){
 		};
 		var frame = new Sly('#scrollbar', options).init();
 		});
-
-/* ---------------------------------------------------------------------- */
-/*	Google Map Function for Custom Style
-/* ---------------------------------------------------------------------- */
-function initialize() {
-	"use strict";
-	var MY_MAPTYPE_ID = 'custom_style';
-	var map;
-	var brooklyn = new google.maps.LatLng(-37.821982, 144.9581352);
-	var featureOpts = [
-		{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}
-
-	];
-	var mapOptions = {
-		zoom: 12,
-		center: brooklyn,
-		mapTypeControlOptions: {
-			mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-		},
-		mapTypeId: MY_MAPTYPE_ID
-	};
-
-	map = new google.maps.Map(
-		document.getElementById('googleMap'),
-		mapOptions
-	);
-
-	var styledMapOptions = {
-		name: 'Custom Style'
-	};
-
-	var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
-
-	map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-}
-
-/* ---------------------------------------------------------------------- */
-/*	Google Map Function for Custom Style
-/* ---------------------------------------------------------------------- */
-function initialize_new() {
-	"use strict";
-	var MY_MAPTYPE_ID = 'custom_style';
-	var map;
-	var brooklyn = new google.maps.LatLng(-37.821982, 144.9581352);
-	var featureOpts = [
-		{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}
-
-	];
-	var mapOptions = {
-		zoom: 12,
-		center: brooklyn,
-		mapTypeControlOptions: {
-			mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
-		},
-		mapTypeId: MY_MAPTYPE_ID
-	};
-
-	map = new google.maps.Map(
-		document.getElementById('map-canvas'),
-		mapOptions
-	);
-
-	var styledMapOptions = {
-		name: 'Custom Style'
-	};
-
-	var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
-
-	map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
-}

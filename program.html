@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Event</title>
 	<!-- Bootstrap min css -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
 	<!-- bxSlider CSS file -->
@@ -55,7 +54,7 @@ w3IncludeHTML();
 				<!--ROW START-->
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
-						<h2>Our Speakers</h2>
+						<h2>PAN IIT Japan Convention</h2>
 					</div>
 				</div>
 				<!--ROW END-->
@@ -70,6 +69,33 @@ w3IncludeHTML();
 					<div class="kode-conference-schedule">
 			<div class="container">
 				<div class="kf_heading_1">
+                    <h2>Theme</h2>
+                    <span>“Progressing Towards a Sustainable Partnership” </span>
+                </div>
+
+                <div class="kf_heading_1">
+                    <h2>Vision</h2>
+                    <span>•&nbsp;Fostering strong and durable relationships between the two countries.<br/>
+•&nbsp;Looking back into past collaborations and finding solutions for future.</span>
+                </div>
+
+                
+
+
+
+                <div class="kf_heading_1">
+                    <h2>Objectives</h2>
+                    <span>•&nbsp;To promote global partnership for public and private partnership.<br/>
+•&nbsp;To develop inter-country small and medium industrial networking and technological exchange.<br/>
+•&nbsp;To facilitate establishment of strategic exchange venues and resources to counter existing challenges.</span>
+                </div>
+
+
+
+
+
+
+				<div class="kf_heading_1">
                     <h2>Conference Schedule</h2>
                     <span>Please note that on-site registrations for the conference will be available from 0830-0900 only</span>
                 </div>
@@ -80,8 +106,8 @@ w3IncludeHTML();
 							<div class="scheduletabs">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs" role="tablist">
-									<li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab"><span>Day 1</span>20.07.2017</a></li>
-									<li role="presentation"><a href="#profile-1" role="tab" data-toggle="tab"><span>Day 2</span>21.07.2017</a></li>
+									<li role="presentation" class="active" style="width:50%"><a href="#home" role="tab" data-toggle="tab"><span>Day 1</span>20.07.2017</a></li>
+									<li role="presentation" style="width:50%"><a href="#profile-1" role="tab" data-toggle="tab"><span>Day 2</span>21.07.2017</a></li>
 								</ul>
 								<!-- Tab panes -->
 								<div class="tab-content">
@@ -383,5 +409,13 @@ w3IncludeHTML();
 <script src="js/jquery.sidr.min.js"></script>
 <!--Custom Scripts-->
 <script src="js/custom.js"></script>
+
+<script>
+$(document).ready(function(){
+    alert("s");
+document.getElementById("nav_bar_ul").getElementsByTagName("li")[0].className = "";
+document.getElementById("nav_bar_ul").getElementsByTagName("li")[1].className = "active";
+});
+</script>
 </body>
 </html>
