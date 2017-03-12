@@ -7,35 +7,45 @@ $( "#loginbtn" ).click(function() {
 	console.log("login");
 $('#loginmodal').modal('toggle');
 });
-	if(window.location.href.indexOf("index") >= 0)
-  	document.getElementById("home").className="active";
+
+function setbackgroundcolor(v){
+	document.getElementById(v).className="active";
+  		document.getElementById(v).style.background="#0c2d72";
+  		document.getElementById(v).style.color="white";
+}
+
+if(window.location.href.indexOf("index") >= 0)
+  	{
+  		setbackgroundcolor("home_id");
+  	}
 
   else if(window.location.href.indexOf("program") >= 0)
-  	document.getElementById("program").className="active";
+  	{
+  		setbackgroundcolor("program_id");
+  	}
 
-  else if(window.location.href.indexOf("about") >= 0)
-  	document.getElementById("about").className="active";
+  else if(window.location.href.indexOf("about") >= 0){
+  		setbackgroundcolor("about_id");
+  	}
 
-  else if(window.location.href.indexOf("previousconference") >= 0)
-  	document.getElementById("pastconf").className="active";
+  else if(window.location.href.indexOf("previousconference") >= 0){
+  		setbackgroundcolor("pastconf_id");
+  	}
 
-  else if(window.location.href.indexOf("sponsors") >= 0)
-  	document.getElementById("sponsors").className="active";
+  else if(window.location.href.indexOf("sponsors") >= 0){
+  		setbackgroundcolor("sponsors_id");
+  	}
 
   else if(window.location.href.indexOf("faq") >= 0)
   	{
-  		console.log("faq");
-  	document.getElementById("faq_menu").className="active";
-  }
+  		setbackgroundcolor("faq_menu_id");
+  	}
 
-  else if(window.location.href.indexOf("registration") >= 0)
-  	document.getElementById("regist").className="active";
+  else if(window.location.href.indexOf("registration") >= 0){
+  		setbackgroundcolor("regist_id");
+  	}
 
-  if(window.location.href.indexOf("faq") >= 0)
-  	{
-  		console.log("faq");
-  	document.getElementById("faq_menu").className="active";
-  }
+  
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
