@@ -1,20 +1,16 @@
 $(document).ready(function(){
-	"use strict";
+	
 	console.log("working");
   console.log(window.location.href);
 
-$( "#loginbtn" ).click(function() {
-	console.log("login");
-$('#loginmodal').modal('toggle');
-});
-
-function setbackgroundcolor(v){
-	document.getElementById(v).className="active";
+  function setbackgroundcolor(v){
+		console.log(v);
+		document.getElementById(v).className="active";
   		document.getElementById(v).style.background="#0c2d72";
   		document.getElementById(v).style.color="white";
 }
 
-if(window.location.href.indexOf("index") >= 0)
+  if(window.location.href.indexOf("index") >= 0)
   	{
   		setbackgroundcolor("home_id");
   	}
@@ -44,6 +40,15 @@ if(window.location.href.indexOf("index") >= 0)
   else if(window.location.href.indexOf("registration") >= 0){
   		setbackgroundcolor("regist_id");
   	}
+
+});
+$( "#loginbtn" ).click(function() {
+	console.log("login");
+$('#loginmodal').modal('toggle');
+});
+
+
+
 
   
 
@@ -496,4 +501,3 @@ if(window.location.href.indexOf("index") >= 0)
 		touchDragging: 1
 		};
 		var frame = new Sly('#scrollbar', options).init();
-		});
