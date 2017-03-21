@@ -21,7 +21,9 @@
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/color.css" type="text/css" media="all">
 </head>
-<body>
+<body style='    background-image: url(images/header_background_2.jpg) !important;
+    background-position: top center;
+    background-attachment: fixed;'>
 	
 <div id="wrapper">
 	<div id="mobile-header">
@@ -54,7 +56,7 @@ w3IncludeHTML();
 	</div>
 	<!-- Kode-Slider End -->
 	<div class="content">
-		<div class="kode-overview-holder">
+		<div class="kode-overview-holder overviewholder">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-6">
@@ -430,7 +432,7 @@ w3IncludeHTML();
 		<!--kode-event-testimonial-->
 		
 		<!--Faq Wrap Start-->
-        <div class="kf_faq_bg">
+        <div class="kf_faq_bg overviewholder">
         	<div class="container">
             	<div class="kf_heading_1">
                 	<h2>FAQs</h2>
@@ -526,6 +528,24 @@ w3IncludeHTML();
 		</div>
 		<!--kode-event-contact-->
 	</div>
+	<style>
+
+.overviewholder {
+   position: relative;
+}
+.overviewholder:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('images/iitkbgr.png'); 
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
+	</style>
 	<div w3-include-html="footer.html"></div> 
 </div>
 
