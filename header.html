@@ -17,13 +17,13 @@
 		</strong>
 		<nav class="kode-nav" id="navigation">
 			<ul id="nav_bar_ul">
-				<li id="home"><a href="index.html" id="home_id" style="color:black">Home</a></li>
-				<li id="program"><a href="program.html" id="program_id" style="color:black">Program</a></li>
-				<li id="about"><a href="about.html" id="about_id" style="color:black">About us</a></li>
-				<li id="pastconf"><a  id="pastconf_id" href="previousconference.html" style="color:black">Past Conference</a></li>
-				<li id="sponsors"><a  id="sponsors_id" href="sponsors.html" style="color:black">Sponsors</a></li>
-				<li id="faq_menu"><a  id="faq_menu_id" href="faq.html" style="color:black">FAQ</a></li>
-				<li id="regist"><a  id="regist_id" href="registration.html" style="color:black">Register</a></li>
+				<li id="home"><a href="index.html" id="home_id" onmouseout="black(this)" onmouseover="white(this)"  style="color:black">Home</a></li>
+				<li id="program"><a href="program.html" id="program_id" onmouseout="black(this)" onmouseover="white(this)" style="color:black">Program</a></li>
+				<li id="about"><a href="about.html" id="about_id"  onmouseout="black(this)" onmouseover="white(this)"style="color:black">About us</a></li>
+				<li id="pastconf"><a id="pastconf_id" href="previousconference.html"  onmouseout="black(this)" onmouseover="white(this)"style="color:black">Past Conference</a></li>
+				<li id="sponsors"><a id="sponsors_id" href="sponsors.html"  onmouseout="black(this)" onmouseover="white(this)"style="color:black">Sponsors</a></li>
+				<li id="faq_menu"><a id="faq_menu_id" href="faq.html" onmouseout="black(this)" onmouseover="white(this)" style="color:black">FAQ</a></li>
+				<li id="regist"><a id="regist_id" href="registration.html"  onmouseout="black(this)" onmouseover="white(this)"style="color:black">Register</a></li>
 				<!--<li><button type="button" class="btn btn-primary btn-block"><a href="register.html">Register</button></li>-->
 				<!--<li><a href="contact.html">Contacts</a></li>-->
 			</ul>
@@ -68,7 +68,7 @@
         </div>
         <div class="modal-footer">
 <center>
-          <button type="button" class="btn btn-primary btn-block">Login</button>
+          <button type="button" class="btn btn-primary btn-block" onclick="loginaction()">Login</button>
           </center>
         </div>
       </div>

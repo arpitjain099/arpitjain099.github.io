@@ -210,10 +210,10 @@ fa(stsda);
     		//sts=sts.concat('<div class="panel-body">');
     		sts=sts.concat('<b>Body</b>:'.concat(examplejson.orders[i].name).concat('<br>'));
 
-    		sts=sts.concat(''.concat(examplejson.orders[i].remarks).concat("<hr><hr>"));
+    		//sts=sts.concat(''.concat(examplejson.orders[i].remarks).concat("<hr><hr>"));
     		//sts=sts.concat('</div>');
 
-    		sts=sts.concat('</div> </div>');
+    		sts=sts.concat('</div> </div><hr style="border-top: 1px solid black; margin-top:10px">');
     		console.log(sts);
     	$(sts).fadeIn('slow').appendTo('.inputs');
 }

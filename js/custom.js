@@ -1,7 +1,26 @@
-$(document).ready(function(){
+function white(v){
+	v.style.color="white";
+}
+
+function loginaction(){
+$.post( "https://radiant-woodland-44974.herokuapp.com/login", function() {
+  alert( "success" );
+})
+  .done(function() {
+    alert( "second success" );
+  })
+  .fail(function() {
+    alert( "error" );
+  });
+ 
+
 	
-	console.log("working");
-  console.log(window.location.href);
+}
+
+function black(v){
+	if(v.className!="active")
+		v.style.color="black";
+}
 
   function setbackgroundcolor(v){
 		console.log(v);
@@ -9,6 +28,13 @@ $(document).ready(function(){
   		document.getElementById(v).style.background="#0c2d72";
   		document.getElementById(v).style.color="white";
 }
+
+$(document).ready(function(){
+	
+	console.log("working");
+  console.log(window.location.href);
+
+
 
   if(window.location.href.indexOf("index") >= 0)
   	{
