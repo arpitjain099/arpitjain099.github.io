@@ -3928,13 +3928,14 @@ h1,h2,h3,h4,h5,h6{
 	right:10px;
 	top:10px;
 	bottom:10px;
-	padding:120px 5px;
+	/*padding:120px 5px;*/
 }
 .kode_fortfolio_detail strong{
 	display:block;
+	margin-top: 10%;/* arpit */
 	font-size:17px;
-	line-height:22px;
-	margin:30px 0 0;
+	/*line-height:22px;*/
+	/*margin:30px 0 0;*/
 }
 .kode_fortfolio_detail a{
 	display:inline-block;
@@ -4506,7 +4507,7 @@ h1,h2,h3,h4,h5,h6{
 	font-size:16px;
 	line-height:30px;
 	color:#666;
-	font-style:italic;
+	/*font-style:italic;*/
 	padding:0px 0px 20px;	
 }
 .kf_heading_1 span:before,

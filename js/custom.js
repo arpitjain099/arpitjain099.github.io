@@ -11,11 +11,13 @@ $.post( "https://radiant-woodland-44974.herokuapp.com/login", function() {
   })
   .fail(function() {
     alert( "error" );
-  });
- 
-
-	
+  });	
 }
+
+$( ".joineventindex" ).click(function() {
+	console.log("take me to registration page");
+	window.location.href="registration.html";
+});
 
 function black(v){
 	if(v.className!="active")
@@ -67,11 +69,14 @@ $(document).ready(function(){
   		setbackgroundcolor("regist_id");
   	}
 
-});
-$( "#loginbtn" ).click(function() {
+
+  	$( "#loginbtn" ).click(function() {
 	console.log("login");
 $('#loginmodal').modal('toggle');
 });
+});
+
+
 
 
 
@@ -409,7 +414,8 @@ $('#loginmodal').modal('toggle');
 	/* ==================================
 	Contact Form Ajax
 ==================================	*/
-	
+	//arpit
+	/*
 	if($('#contactform').length) {
 
 		var $form = $('#contactform'),
@@ -481,7 +487,7 @@ $('#loginmodal').modal('toggle');
 		});				
 
 	}
-	
+	*/
 	/*
 	  ==============================================================
 		   Accordian Script Start
@@ -511,15 +517,12 @@ $('#loginmodal').modal('toggle');
 	/*
 	  ==============================================================
 		 Google Map
-	  ============================================================== */
+	  ============================================================== 
 		google.maps.event.addDomListener(window, 'load', initialize);
 		google.maps.event.addDomListener(window, 'load', initialize_new);
-	
+	*/
 	/*
-	  ==============================================================
-		 SLY Script
-	  ============================================================== */
-		var options = {
+	  		var options = {
 		horizontal: 1,
 		itemNav: 'basic',
 		speed: 300,
@@ -527,3 +530,4 @@ $('#loginmodal').modal('toggle');
 		touchDragging: 1
 		};
 		var frame = new Sly('#scrollbar', options).init();
+		*/

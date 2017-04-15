@@ -129,7 +129,7 @@ li{
 	
 }
 .content .kf_heading_1 span,.content .kf_heading_2 span{
-	line-height:16px;
+	/*line-height:16px;*/
 	padding:5px 0 26px;
 }
 .content .kf_heading_2 span{
