@@ -2946,7 +2946,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .twitterfeed-nav li{
 	position:relative;
-	margin:0 0 25px;
+	/*margin:0 0 25px;*/
 }
 .twitterfeed-nav a{
 
@@ -4489,7 +4489,7 @@ h1,h2,h3,h4,h5,h6{
 	float:left;
 	width:100%;
 	position:relative;
-	margin:0px 0px 30px;	
+	/*margin:0px 0px 30px;*/	
 }
 .kf_heading_2 h3,
 .kf_heading_4 h3
