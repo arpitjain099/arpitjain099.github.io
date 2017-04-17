@@ -3021,6 +3021,65 @@ h1,h2,h3,h4,h5,h6{
 	bottom:0px;
 	background:#f2f2f2;
 }
+.overviewpast{
+	position: relative;
+	padding: 63px 0 17px;
+	float: left;
+	width: 100%;
+}
+.overviewpast:before{
+	float: left;
+	width: 50%;
+	position: absolute;
+	content: "";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background:#f2f2f2;
+}
+.overviewpast:after{
+	float: left;
+	width: 50%;
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	bottom:0px;
+	background-image: url(images/meshi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.overviewnext{
+	position: relative;
+	padding: 63px 0 17px;
+	float: left;
+	width: 100%;
+}
+.overviewnext:before{
+	float: left;
+	width: 50%;
+	position: absolute;
+	content: "";
+	top:0px;
+	left: 0px;
+	bottom:0px;
+	background-image: url(images/meshi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.overviewnext:after{
+	float: left;
+	width: 50%;
+	position: absolute;
+	content: "";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background:#f2f2f2;
+}
+
+
 .overview_caption{
 	float: right;
 	width: 47%;
