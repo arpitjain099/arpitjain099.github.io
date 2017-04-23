@@ -130,11 +130,13 @@ h1,h2,h3,h4,h5,h6{
 	  ==============================================================
 */
 .sub-header{
-	position:relative;
-	min-height:300px;
-	background-image:url(images/rsz_1site_header_1920x130.png);
-	background-size:cover;
-	background-position:center;
+	position: relative;
+    min-height: 300px;
+    background-image: url(images/Pictureheader.png);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
 }
 
 .kode-slider{
@@ -194,12 +196,12 @@ h1,h2,h3,h4,h5,h6{
 }
 .kode-content h3{
 	float:left;
-	border-top:3px solid #fff;
+	border-top:3px solid black;
 	font-size:20px;
 	line-height:24px;
 	padding:15px 0 0;
 	text-transform:uppercase;
-	color:#fff;
+	color:black;
 }
 .right-float{
 	float:right;
@@ -3004,7 +3006,7 @@ h1,h2,h3,h4,h5,h6{
 	top:0px;
 	left: 0px;
 	bottom:0px;
-	background-image: url(images/overview.jpg);
+	background-image: url('http://www.t5eiitm.org/wp-content/uploads/2011/08/DSC_2604.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
