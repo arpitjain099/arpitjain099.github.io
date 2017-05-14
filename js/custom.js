@@ -1,96 +1,7 @@
-function white(v){
-	v.style.color="white";
-}
-
-function loginaction(){
-$.post( "https://radiant-woodland-44974.herokuapp.com/login", function() {
-  alert( "success" );
-})
-  .done(function() {
-    alert( "second success" );
-  })
-  .fail(function() {
-    alert( "error" );
-  });	
-}
-
-$( ".joineventindex" ).click(function() {
-	console.log("take me to registration page");
-	window.location.href="registration.html";
-});
-
-function black(v){
-	if(v.className!="active")
-		v.style.color="black";
-}
-
-  function setbackgroundcolor(v){
-		console.log(v);
-		document.getElementById(v).className="active";
-  		document.getElementById(v).style.background="#0c2d72";
-  		document.getElementById(v).style.color="white";
-}
-
 $(document).ready(function(){
+	"use strict";
+
 	
-	console.log("working");
-  console.log(window.location.href);
-
-
-
-  if(window.location.href.indexOf("index") >= 0)
-  	{
-  		setbackgroundcolor("home_id");
-  	}
-
-  else if(window.location.href.indexOf("program") >= 0)
-  	{
-  		setbackgroundcolor("program_id");
-  	}
-
-  else if(window.location.href.indexOf("about") >= 0){
-  		setbackgroundcolor("about_id");
-  	}
-
-  else if(window.location.href.indexOf("previousconference") >= 0){
-  		setbackgroundcolor("pastconf_id");
-  	}
-
-  else if(window.location.href.indexOf("sponsors") >= 0){
-  		setbackgroundcolor("sponsors_id");
-  	}
-
-  else if(window.location.href.indexOf("faq") >= 0)
-  	{
-  		setbackgroundcolor("faq_menu_id");
-  	}
-
-  else if(window.location.href.indexOf("registration") >= 0){
-  		setbackgroundcolor("regist_id");
-  	}
-
-
-  	$( "#loginbtn" ).click(function() {
-	console.log("login");
-$('#loginmodal').modal('toggle');
-});
-});
-
-
-
-
-
-
-  
-
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-92517454-1', 'auto');
-  ga('send', 'pageview');
-
 	/* ---------------------------------------------------------------------- */
 	/*	Back To TOp Script
 	/* ---------------------------------------------------------------------- */
@@ -414,8 +325,7 @@ $('#loginmodal').modal('toggle');
 	/* ==================================
 	Contact Form Ajax
 ==================================	*/
-	//arpit
-	/*
+	
 	if($('#contactform').length) {
 
 		var $form = $('#contactform'),
@@ -487,7 +397,7 @@ $('#loginmodal').modal('toggle');
 		});				
 
 	}
-	*/
+	
 	/*
 	  ==============================================================
 		   Accordian Script Start
@@ -517,12 +427,15 @@ $('#loginmodal').modal('toggle');
 	/*
 	  ==============================================================
 		 Google Map
-	  ============================================================== 
+	  ============================================================== */
 		google.maps.event.addDomListener(window, 'load', initialize);
 		google.maps.event.addDomListener(window, 'load', initialize_new);
-	*/
+	
 	/*
-	  		var options = {
+	  ==============================================================
+		 SLY Script
+	  ============================================================== */
+		var options = {
 		horizontal: 1,
 		itemNav: 'basic',
 		speed: 300,
@@ -530,4 +443,74 @@ $('#loginmodal').modal('toggle');
 		touchDragging: 1
 		};
 		var frame = new Sly('#scrollbar', options).init();
-		*/
+		});
+
+/* ---------------------------------------------------------------------- */
+/*	Google Map Function for Custom Style
+/* ---------------------------------------------------------------------- */
+function initialize() {
+	"use strict";
+	var MY_MAPTYPE_ID = 'custom_style';
+	var map;
+	var brooklyn = new google.maps.LatLng(-37.821982, 144.9581352);
+	var featureOpts = [
+		{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}
+
+	];
+	var mapOptions = {
+		zoom: 12,
+		center: brooklyn,
+		mapTypeControlOptions: {
+			mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+		},
+		mapTypeId: MY_MAPTYPE_ID
+	};
+
+	map = new google.maps.Map(
+		document.getElementById('googleMap'),
+		mapOptions
+	);
+
+	var styledMapOptions = {
+		name: 'Custom Style'
+	};
+
+	var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+	map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Google Map Function for Custom Style
+/* ---------------------------------------------------------------------- */
+function initialize_new() {
+	"use strict";
+	var MY_MAPTYPE_ID = 'custom_style';
+	var map;
+	var brooklyn = new google.maps.LatLng(-37.821982, 144.9581352);
+	var featureOpts = [
+		{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}
+
+	];
+	var mapOptions = {
+		zoom: 12,
+		center: brooklyn,
+		mapTypeControlOptions: {
+			mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+		},
+		mapTypeId: MY_MAPTYPE_ID
+	};
+
+	map = new google.maps.Map(
+		document.getElementById('map-canvas'),
+		mapOptions
+	);
+
+	var styledMapOptions = {
+		name: 'Custom Style'
+	};
+
+	var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+	map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+}

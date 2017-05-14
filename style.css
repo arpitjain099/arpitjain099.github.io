@@ -1,12 +1,3 @@
-._18px{
-	font-size:18px;
-}
-
-._36px{
-	font-size: 36px;
-}
-
-
 /*==================================================
 
 Project:	TheEvent - Conference Event Template
@@ -130,14 +121,11 @@ h1,h2,h3,h4,h5,h6{
 	  ==============================================================
 */
 .sub-header{
-	position: relative;
-    min-height: 300px;
-    background-image: url(images/Siteheaderfinal.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding-top: 100px;
-    border-bottom: 1px solid #969893;
+	position:relative;
+	min-height:300px;
+	background-image:url(images/our-speaker.jpg);
+	background-size:cover;
+	background-position:center;
 }
 
 .kode-slider{
@@ -193,16 +181,16 @@ h1,h2,h3,h4,h5,h6{
 	text-transform:uppercase;
 }
 .kode-content .overflow{
-	margin:-121px 0 20px;
+	margin:-70px 0 20px;
 }
 .kode-content h3{
 	float:left;
-	border-top:3px solid black;
+	border-top:3px solid #fff;
 	font-size:20px;
 	line-height:24px;
 	padding:15px 0 0;
 	text-transform:uppercase;
-	color:black;
+	color:#fff;
 }
 .right-float{
 	float:right;
@@ -211,7 +199,7 @@ h1,h2,h3,h4,h5,h6{
 	float:right;
 }
 .kode-content p{
-	margin:40px 0 40px;
+	margin:0 0 40px;
 }
 .button-holder{
 	position:relative;
@@ -2949,7 +2937,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .twitterfeed-nav li{
 	position:relative;
-	/*margin:0 0 25px;*/
+	margin:0 0 25px;
 }
 .twitterfeed-nav a{
 
@@ -3007,7 +2995,7 @@ h1,h2,h3,h4,h5,h6{
 	top:0px;
 	left: 0px;
 	bottom:0px;
-	background-image: url('http://www.t5eiitm.org/wp-content/uploads/2011/08/DSC_2604.jpg');
+	background-image: url(images/overview.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -3024,65 +3012,6 @@ h1,h2,h3,h4,h5,h6{
 	bottom:0px;
 	background:#f2f2f2;
 }
-.overviewpast{
-	position: relative;
-	padding: 63px 0 17px;
-	float: left;
-	width: 100%;
-}
-.overviewpast:before{
-	float: left;
-	width: 50%;
-	position: absolute;
-	content: "";
-	top:0px;
-	right:0px;
-	bottom:0px;
-	background:#f2f2f2;
-}
-.overviewpast:after{
-	float: left;
-	width: 50%;
-	position: absolute;
-	content: "";
-	top:0px;
-	left: 0px;
-	bottom:0px;
-	background-image: url(images/meshi.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.overviewnext{
-	position: relative;
-	padding: 63px 0 17px;
-	float: left;
-	width: 100%;
-}
-.overviewnext:before{
-	float: left;
-	width: 50%;
-	position: absolute;
-	content: "";
-	top:0px;
-	left: 0px;
-	bottom:0px;
-	background-image: url(images/meshi.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.overviewnext:after{
-	float: left;
-	width: 50%;
-	position: absolute;
-	content: "";
-	top:0px;
-	right:0px;
-	bottom:0px;
-	background:#f2f2f2;
-}
-
-
 .overview_caption{
 	float: right;
 	width: 47%;
@@ -3990,14 +3919,13 @@ h1,h2,h3,h4,h5,h6{
 	right:10px;
 	top:10px;
 	bottom:10px;
-	/*padding:120px 5px;*/
+	padding:120px 5px;
 }
 .kode_fortfolio_detail strong{
 	display:block;
-	margin-top: 10%;/* arpit */
 	font-size:17px;
-	/*line-height:22px;*/
-	/*margin:30px 0 0;*/
+	line-height:22px;
+	margin:30px 0 0;
 }
 .kode_fortfolio_detail a{
 	display:inline-block;
@@ -4551,7 +4479,7 @@ h1,h2,h3,h4,h5,h6{
 	float:left;
 	width:100%;
 	position:relative;
-	/*margin:0px 0px 30px;*/	
+	margin:0px 0px 30px;	
 }
 .kf_heading_2 h3,
 .kf_heading_4 h3
@@ -4569,7 +4497,7 @@ h1,h2,h3,h4,h5,h6{
 	font-size:16px;
 	line-height:30px;
 	color:#666;
-	/*font-style:italic;*/
+	font-style:italic;
 	padding:0px 0px 20px;	
 }
 .kf_heading_1 span:before,

@@ -1,81 +1,24 @@
-	<title>PAN IIT India Japan Convention</title>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="icon" href="images/favicon.png"/>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-92517454-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script src="js/jquery.js"></script>
-<script src="common_page.js"></script>
-<script src="js/custom.js"></script>
-<header id="kode-header" style="background:white">
+<header id="kode-header" >
 		<strong class="kode-logo">
-			<a href="index.html"><img src="images/Final_PanIIT-logo-no-text.png" style="width: 140%" alt=""></a>
+			<a href="#"><img src="images/logo.jpg" style="size:80%" alt=""></a>
 		</strong>
 		<nav class="kode-nav" id="navigation">
-			<ul id="nav_bar_ul">
-				<li id="home"><a href="index.html" id="home_id" onmouseout="black(this)" onmouseover="white(this)"  style="color:black">Home</a></li>
-				<li id="program"><a href="program.html" id="program_id" onmouseout="black(this)" onmouseover="white(this)" style="color:black">Program</a></li>
-				<li id="about"><a href="about.html" id="about_id"  onmouseout="black(this)" onmouseover="white(this)"style="color:black">About IITs</a></li>
-				<li id="pastconf"><a id="pastconf_id" href="previousconference.html"  onmouseout="black(this)" onmouseover="white(this)"style="color:black">Past Conference</a></li>
-				<li id="sponsors"><a id="sponsors_id" href="sponsors.html"  onmouseout="black(this)" onmouseover="white(this)"style="color:black">Sponsors</a></li>
-				<!--<li id="faq_menu"><a id="faq_menu_id" href="faq.html" onmouseout="black(this)" onmouseover="white(this)" style="color:black">FAQ</a></li>-->
-				<li id="regist"><a id="regist_id" href="https://goo.gl/forms/j2drkF66A3bXcwW03"  onmouseout="black(this)" target="_blank" onmouseover="white(this)"style="color:black">Register</a></li>
-				<!--<li><button type="button" class="btn btn-primary btn-block"><a href="register.html">Register</button></li>-->
-				<!--<li><a href="contact.html">Contacts</a></li>-->
+			<ul>
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="program.html">Program</a></li>
+				<li><a href="about.html">About IIT</a></li>
+				<li><a href="previousconference.html">Past Conference</a></li>
+				<li><a href="sponsors.html">Sponsors</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="http://www.goo.gl/uRVyh2" target="_blank">Register</a></li>
+				<li><a href="contact.html">Contacts</a></li>
 			</ul>
 		</nav>
 		<div class="col-right">
 			<ul class="header-social">
-				<li id="loginbtn"><button type="button" class="btn btn-primary btn-block">Login
-				</button></li>
+				<li><a href="#" data-toggle="tooltip" title="Facebook" data-placement="bottom"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" data-toggle="tooltip" title="Twitter" data-placement="bottom"><i class="fa fa-twitter"></i></a></li>
             </ul>
 		</div>
 	</header>
-
-	<div class="modal fade" id="loginmodal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header"><center>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Login</h4>
-
-	</center>
-        </div>
-        <div class="modal-body">
-    Thank you for showing your interest. Please refer to our <a href="registration.html">register</a> for event registration and more details.
-    <!--
-    <form class="form-horizontal">
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="email">E-Mail:</label>
-      <div class="col-sm-10">          
-        <input type="text" class="form-control" id="email" style="margin-bottom:0" placeholder="E-Mail">
-      </div>
-    </div>
-    
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="pwd">Password:</label>
-      <div class="col-sm-10">          
-        <input type="password" class="form-control" id="pwd" placeholder="Password">
-      </div>
-    </div>
-    </form>
-    -->
-        </div>
-        <div class="modal-footer">
-<center>
-          <button type="button" class="btn btn-primary btn-block" onclick="loginaction()">Login</button>
-          </center>
-        </div>
-      </div>
-      
-    </div>
-  </div>
