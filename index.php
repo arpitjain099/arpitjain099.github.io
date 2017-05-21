@@ -4,10 +4,10 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-        <title>Women Who Defend - Creating safer ecosystem for Kids & Women</title>
+        <title>Women Who Defend - Creating safer ecosystem for Women</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="Eventr - One Page Event Template">
+        <meta name="description" content="Women Who Defend - Creating safer ecosystem for women">
         <meta name="author" content="themecube">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="css/revolution-extralayers.css">
         <link rel="stylesheet" href="css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-        <link rel="shortcut icon" href="img/Prevention.png">
+        <link rel="shortcut icon" href="img/girlpower.png">
 	</head>
 	<body>
         <div id="preload">
@@ -54,7 +54,7 @@
                 <li><a data-toggle="elementscroll" href="#info" class="headerfontsize">Mission</a></li>
                 <!--<li><a data-toggle="elementscroll" href="#about" class="headerfontsize">About</a></li>-->
                 <li><a data-toggle="elementscroll" href="#getinvolved" class="headerfontsize">Get involved</a></li>
-                <li><a data-toggle="elementscroll" href="http://medium.com/women-who-defend" class="headerfontsize">Blog</a></li>
+                <li><a data-toggle="elementscroll" href="http://blog.womenwhodefend.com" class="headerfontsize">Blog</a></li>
                 <!--<li><a data-toggle="elementscroll" href="#startachapter" class="headerfontsize">Start a chapter</a></li>-->
                 <li><a data-toggle="elementscroll" href="#contact" class="headerfontsize">Contact</a></li>
               </ul>
@@ -67,9 +67,9 @@
             <div class="tp-banner">
 				<ul>	
                 	
-                    <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide_thumb_1.jpg"  data-saveperformance="off"  data-title="Slide">
+                    <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="img/womendarkbackground.jpeg"  data-saveperformance="off"  data-title="Slide">
 
-                        <img src="https://static.pexels.com/photos/196039/pexels-photo-196039.jpeg"  alt="fullslide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <img src="img/womendarkbackground.jpeg"  alt="fullslide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                       
                         <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme"
                             data-x="center" data-hoffset="250"
@@ -104,7 +104,7 @@
                     </li>
                     
         			
-                    <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide_thumb_2.jpg"  data-saveperformance="off"  data-title="Slide">
+                    <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="img/darkimg.jpeg"  data-saveperformance="off"  data-title="Slide">
                         <!-- MAIN IMAGE -->
                         <img src="img/darkimg.jpeg"  alt="fullslide2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
@@ -153,15 +153,92 @@
                     <div class="col-lg-12 text-center">
                         <h1>About</h1>
                         <p class="lead">
-                            Creating safer environments for women & kids, at home and at workplace.
-                        </p>
-                    </div>
+                            
 
-                    <div class="col-lg-12 text-center">
-                        <h1>Mission</h1>
-                        <p class="lead">
-                            Creating safer environments for women & kids, at home and at workplace.
+
+
+<div class="tab">
+  <button class="tablinks active" onclick="openCity(event, 'mission')" id="aboutusmission" style="width: 25%">Mission</button>
+  <button class="tablinks" onclick="openCity(event, 'about')" style="width: 25%">About Us</button>
+  <button class="tablinks" onclick="openCity(event, 'how')" style="width: 25%">How do we do it</button>
+  <button class="tablinks" onclick="openCity(event, 'leadership')" style="width: 25%">Leadership</button>
+</div>
+
+<div id="mission" class="tabcontent">
+    <br/>
+<p class="lead">Creating safer environments for women, at home and at workplace.</p>
+</div>
+
+<div id="about" class="tabcontent"><br/>
+  <p class="lead">Women Who Defend is a non-profit group aimed to end harassment against women at workplace and at home. We target to end all form of discrimination (physical, psychological or economical) happening in offices and homes. </p>
+</div>
+
+<div id="how" class="tabcontent"><br/>
+  <p class="lead">We are building a community which can organize sessions and programs to help women become more assertive. We touch upon issues which are otherwise considered taboo like sexual harassment at home and workplace, income disparity among men and women, uneven distribution of responsibility based on gender, among others. We conduct such sessions via local self-help chapters, self-defense classes, and sex education classes to spread awareness among children. The focus is achieving these goals via community members. </p> 
+</div>
+
+<div id="leadership" class="tabcontent"><br/>
+  <p class="lead">Currently, we are two IIT (Indian Institute of Technology) graduates based in Tokyo and San Francisco who are interested in solving the problems related to gender bias and harassment prevalent in homes and workplaces. We are also looking forward to adding more members to our team. You can contribute digitally (website development, content design, campaign marketing, etc), or on ground activities (managing local chapters, organizing sessions, meetup groups, etc).</p>
+</div>
+
+
+
                         </p>
+
+
+<style>
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+</style>
                     </div>
                     
                     <div class="col-lg-10 col-lg-offset-1 col-md-12 text-center">
@@ -209,13 +286,9 @@
                             </div>
                             
                             <div class="col-lg-4 col-md-4 col-sm-4">
-                            	<i class="pe-4x pe-7s-map-2"></i>
-                                <h4 class="uppercase">address</h4>
-                                <p>49 West 32nd Street, New York, NY 10001<br>
-                                	1 212 736-3800<br>
-                                	4.9 mi /  7.9 km from Downtown</p>
+                                <h4 class="uppercase">Get involved</h4>
                                 
-                                <a class="button button-xsmall button-line-light" href="">more information</a>
+                                <a class="button button-xsmall button-line-light" href="">Start a Chapter</a>
                             </div>
                             
                         </div>
@@ -235,26 +308,26 @@
         </div>
         -->
         <!-- FOOTER -->        
-        <footer id="footer">
+        <!--<footer id="footer">
         	<div class="container">
             	<div class="row">
                 	
                     <div class="col-lg-3 col-md-3 col-sm-6">
                     	<h4 class="uppercase">Contact</h4>
                         <p class="small">Vestibulum in ultrices justo. Praesent placerat justo metus, vitae malesuada lacus eleifend vel. Vivamus viverra volutpat leo, a gravida dolor posuere congue.</p>
-                        <!--
+                        
                         <ul class="list-unstyled list-inline uppercase">
                             <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
                         </ul>
-                    -->
+                    
                     </div>
                     
                     <div class="col-lg-3 col-md-3 col-sm-6">
                     	<h4 class="uppercase">FAQ</h4>
-                        <!--<p class="small">Etiam nec porta risus. Aliquam id odio orci. Duis accumsan feugiat feugiat.</p>-->
+                        <p class="small">Etiam nec porta risus. Aliquam id odio orci. Duis accumsan feugiat feugiat.</p>
                         
                         <dl class="faqs">
                         	<dt>Is this the first question?</dt>
@@ -277,14 +350,16 @@
                 </div>
             </div>
         </footer>
-        
+        -->
         <!-- SUBFOOTER -->
         <div class="subfooter">
         	<div class="container">
                 <div class="row">
+                    <center>
                     <span>
                         Made with <i class="pe-2x pe-7s-like" style="color: red"></i> in Tokyo & San Francisco
                     </span>
+                    </center>
                     <!--
                     <div class="col-lg-12">
                         <ul class="list-unstyled list-inline pull-right uppercase">
@@ -303,7 +378,6 @@
 
         
     	<script src="js/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <script src="js/jquery.themepunch.tools.min.js"></script>
         <script src="js/jquery.themepunch.revolution.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -325,8 +399,26 @@
         </style>
       	
         
-        
         <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+$( document ).ready(function() {
+    console.log( "ready!" );
+    document.getElementById("aboutusmission").click();
+});
+
+</script>
 		  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -338,7 +430,6 @@
 
 </script>
 		
-		</script> 
         
 	</body>
 </html>
