@@ -53,7 +53,12 @@
               <ul class="nav navbar-nav navbar-right uppercase">
                 <li><a data-toggle="elementscroll" href="#info" class="headerfontsize">Mission</a></li>
                 <!--<li><a data-toggle="elementscroll" href="#about" class="headerfontsize">About</a></li>-->
-                <li><a data-toggle="elementscroll" href="#getinvolved" class="headerfontsize">Get involved</a></li>
+                <li>
+                    <a data-toggle="elementscroll" class="typeform-share button headerfontsize" href="https://arpitjain099.typeform.com/to/y9vOzv" data-mode="popup" target="_blank">Get involved</a> 
+                    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+
+                </li>
                 <li><a data-toggle="elementscroll" href="http://blog.womenwhodefend.com" class="headerfontsize">Blog</a></li>
                 <!--<li><a data-toggle="elementscroll" href="#startachapter" class="headerfontsize">Start a chapter</a></li>-->
                 <li><a data-toggle="elementscroll" href="#contact" class="headerfontsize">Contact</a></li>
@@ -170,15 +175,23 @@
 </div>
 
 <div id="about" class="tabcontent"><br/>
-  <p class="lead">Women Who Defend is a non-profit group aimed to end harassment against women at workplace and at home. We target to end all form of discrimination (physical, psychological or economical) happening in offices and homes. </p>
+  <p class="lead">Women Who Defend is a non-profit group aimed to end harassment against women at workplace and at home. We target to end all form of discrimination (physical, psychological or economical) happening in offices and homes. <br/><br/>
+    <b>Want to get involved?</b>
+    Please fill in a short form here and we will reach out to you within 24 hours.
+</p>
 </div>
 
 <div id="how" class="tabcontent"><br/>
-  <p class="lead">We are building a community which can organize sessions and programs to help women become more assertive. We touch upon issues which are otherwise considered taboo like sexual harassment at home and workplace, income disparity among men and women, uneven distribution of responsibility based on gender, among others. We conduct such sessions via local self-help chapters, self-defense classes, and sex education classes to spread awareness among children. The focus is achieving these goals via community members. </p> 
+  <p class="lead">We are building a community which organizes sessions, campaigns and programs to help women become more assertive. We conduct such sessions via local self-help chapters, self-defense classes, and sex education classes to spread awareness among children. The focus is achieving these goals via community members. Our three point agenda. We touch upon issues which are otherwise considered taboo like 
+    <ul class="lead"><li>sexual harassment at home and workplace,</li><li> income disparity among men and women,</li><li>uneven distribution of responsibility based on gender, among others</li> </p> 
 </div>
 
 <div id="leadership" class="tabcontent"><br/>
-  <p class="lead">Currently, we are two IIT (Indian Institute of Technology) graduates based in Tokyo and San Francisco who are interested in solving the problems related to gender bias and harassment prevalent in homes and workplaces. We are also looking forward to adding more members to our team. You can contribute digitally (website development, content design, campaign marketing, etc), or on ground activities (managing local chapters, organizing sessions, meetup groups, etc).</p>
+  <p class="lead">Currently, we are two IIT (Indian Institute of Technology) graduates based in Tokyo and San Francisco who are interested in solving the problems related to gender bias and harassment prevalent in homes and workplaces. You can find us on LinkedIn @<a href="https://www.linkedin.com/in/arpitjain099" target="_blank">Arpit</a> and @<a href="https://www.linkedin.com/in/pratik-kumar-281b8050" target="_blank">Pratik</a>. Please reach out to us on <a href="https://www.linkedin.com/in/arpitjain099" target="_blank">LinkedIn</a> or @<a href="mailto:womenwhodefendhq@gmail.com">womenwhodefendhq@gmail.com</a> if you have any feedback/questions.
+    
+    <br/><br/>
+    We are also looking forward to adding more members to our team. You can lend us a helping hand by <a data-toggle="elementscroll" href="https://arpitjain099.typeform.com/to/y9vOzv" data-mode="popup" target="_blank"><u>contributing</u></a> 
+                    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> digitally (website development, content design, campaign marketing, etc), or on ground activities (managing local chapters, organizing sessions, meetup groups, etc).</p>
 </div>
 
 
@@ -288,7 +301,9 @@ div.tab button.active {
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <h4 class="uppercase">Get involved</h4>
                                 
-                                <a class="button button-xsmall button-line-light" href="">Start a Chapter</a>
+
+                                <a data-toggle="elementscroll" class="typeform-share button button button-xsmall button-line-light" href="https://arpitjain099.typeform.com/to/y9vOzv" data-mode="popup" target="_blank">Start a chapter</a> 
+                    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                             </div>
                             
                         </div>
