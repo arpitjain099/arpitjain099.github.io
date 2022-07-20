@@ -1,0 +1,19 @@
+---
+label: gerald
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: position
+  label: position
+- type: file
+  name: image_path
+  label: image_path
+- type: text
+  name: twitter
+  label: twitter
+- type: text
+  name: blurb
+  label: blurb
