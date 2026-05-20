@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://arpitjain099.github.io/sitemap.xml

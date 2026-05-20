@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QWDEV39W77"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QWDEV39W77');
+</script>
+<title>Media — Talks, panels &amp; mentions · Arpit Jain</title>
+<meta name="description" content="Talks, panels, and media mentions by Arpit Jain — OpenSSF Community Days Japan 2025 plus cybersecurity speaking across the industry.">
+<meta name="author" content="Arpit Jain">
+<meta name="keywords" content="Arpit Jain talks, OpenSSF Tokyo, cybersecurity speaking, secrets in public repos, AI vulnerabilities, GitHub Universe, KPMG">
+<link rel="canonical" href="https://arpitjain.fyi/media.html">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta property="og:title" content="Media — Talks, panels &amp; mentions · Arpit Jain">
+<meta property="og:description" content="Talks, panels, and media mentions by Arpit Jain — OpenSSF Community Days Japan 2025 plus cybersecurity speaking across the industry.">
+<meta property="og:url" content="https://arpitjain.fyi/media.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arpit Jain">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Media — Talks &amp; panels · Arpit Jain">
+<meta name="twitter:description" content="Conference talks, panels, and media mentions — OpenSSF Community Days Japan 2025 and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Barlow:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .page-hero{padding:160px 0 60px}
+  .page-hero h1{font-family:'Instrument Serif',serif;font-style:italic;font-size:clamp(48px,8vw,100px);line-height:0.95;margin:24px 0 20px;letter-spacing:-0.03em;max-width:18ch}
+  .page-hero h1 em{color:rgba(255,255,255,0.55);font-style:italic}
+  .page-hero p{color:rgba(255,255,255,0.85);font-size:18px;line-height:1.6;max-width:680px;font-weight:400}
+
+  .filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:32px;padding:18px;border-radius:20px;align-items:center}
+  .filters .lab{font-size:12px;color:rgba(255,255,255,0.7);letter-spacing:0.12em;text-transform:uppercase;margin-right:6px;font-weight:500}
+  .filters button{appearance:none;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);color:rgba(255,255,255,0.9);padding:8px 14px;border-radius:9999px;font-family:'Barlow',sans-serif;font-size:13px;font-weight:500;cursor:pointer;transition:background .2s, color .2s}
+  .filters button:hover{background:rgba(255,255,255,0.12)}
+  .filters button.active{background:#fff;color:#000;border-color:#fff}
+
+  .media-grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:48px}
+  @media (min-width:720px){ .media-grid{grid-template-columns:1fr 1fr} }
+  @media (min-width:1100px){ .media-grid{grid-template-columns:repeat(3,1fr)} }
+  .media-card{display:flex;flex-direction:column;gap:14px;padding:28px;border-radius:24px;min-height:320px;text-decoration:none;color:inherit;transition:transform .3s, background .3s}
+  .media-card:hover{transform:translateY(-4px);background:rgba(255,255,255,0.06)}
+  .media-card .meta{display:flex;justify-content:space-between;align-items:center;gap:10px}
+  .media-card .source{font-family:'JetBrains Mono',monospace;font-size:12px;color:rgba(255,255,255,0.7);letter-spacing:0.04em}
+  .media-card .date{font-family:'JetBrains Mono',monospace;font-size:11px;color:rgba(255,255,255,0.65);letter-spacing:0.06em;font-weight:500}
+  .media-card .type{font-family:'JetBrains Mono',monospace;font-size:11px;padding:4px 10px;border-radius:9999px;letter-spacing:0.06em;text-transform:uppercase;font-weight:500}
+  .type.talk{background:rgba(220,180,110,0.16);color:#e6c98a;border:1px solid rgba(220,180,110,0.32)}
+  .type.panel{background:rgba(180,140,220,0.18);color:#cdb8ec;border:1px solid rgba(180,140,220,0.34)}
+  .type.press{background:rgba(110,200,160,0.16);color:#9be3c2;border:1px solid rgba(110,200,160,0.32)}
+  .type.podcast{background:rgba(220,140,140,0.18);color:#ecb8b8;border:1px solid rgba(220,140,140,0.34)}
+  .type.feature{background:rgba(140,180,220,0.18);color:#b8d4ec;border:1px solid rgba(140,180,220,0.34)}
+  .media-card h3{font-family:'Instrument Serif',serif;font-style:normal;font-size:24px;margin:0;line-height:1.2;letter-spacing:-0.01em;text-wrap:balance;color:#fff}
+  .media-card p{color:rgba(255,255,255,0.85);font-size:15px;line-height:1.6;font-weight:400;margin:0}
+  .media-card .linkrow{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,0.85);font-size:13px;margin-top:auto;font-weight:500}
+  .media-card .linkrow svg{width:14px;height:14px}
+
+  .placeholder{grid-column:1/-1;border-radius:24px;padding:48px;text-align:center;color:rgba(255,255,255,0.78);font-size:15px;line-height:1.6;font-weight:400}
+  .placeholder em{color:#fff;font-style:normal;font-family:'Instrument Serif',serif;font-size:20px;display:block;margin-bottom:8px}
+</style>
+</head>
+<body>
+<div class="page-bg"></div>
+
+<nav class="site">
+  <a href="index.html" class="mark"><span class="dot"></span><span>Arpit Jain</span></a>
+  <div class="nav-links liquid-glass">
+    <a href="index.html#building">Building</a>
+    <a href="index.html#dayjob">Day job</a>
+    <a href="open-source.html">Open source</a>
+    <a href="media.html" class="active">Media</a>
+    <a href="https://github.com/arpitjain099" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://scholar.google.com/citations?user=j8lq-wkAAAAJ" target="_blank" rel="noopener">Scholar</a>
+    <a href="index.html#contact" class="nav-cta">Contact
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+    </a>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="badge liquid-glass" style="border-radius:9999px"><span class="pip">MEDIA</span><span class="lbl">Talks, panels, mentions, features</span></span>
+    <h1>Talks, panels &amp; <em>mentions in the wild.</em></h1>
+    <p>Conference appearances, podcasts, write-ups, and any time someone else has put my name in print. The talks are confirmed; the press section will fill out as I link the pieces in.</p>
+
+    <div class="filters liquid-glass" id="filters">
+      <span class="lab">Filter</span>
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="talk">Talks</button>
+      <button data-filter="panel">Panels</button>
+      <button data-filter="press">Press</button>
+      <button data-filter="podcast">Podcasts</button>
+      <button data-filter="feature">Features</button>
+    </div>
+
+    <div class="media-grid" id="grid">
+
+      <a class="media-card liquid-glass" data-type="talk" href="https://www.youtube.com/watch?v=CGQ6Jr9FQUg" target="_blank" rel="noopener">
+        <div class="meta"><span class="source">Linux Foundation · OpenSSF Tokyo</span><span class="type talk">Talk</span></div>
+        <span class="date">JUN 2025</span>
+        <h3>Secrets in Public Git Repos: Why It Keeps Happening and How To Fix It</h3>
+        <p>A practical breakdown of credential leakage in open source — the tooling, the organisational patterns, and the workflows that actually prevent it.</p>
+        <div class="linkrow">Watch on YouTube <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+      </a>
+
+      <a class="media-card liquid-glass" data-type="talk" href="https://www.youtube.com/watch?v=iMc_QlGS-f4" target="_blank" rel="noopener">
+        <div class="meta"><span class="source">Linux Foundation · OpenSSF Tokyo</span><span class="type talk">Talk</span></div>
+        <span class="date">JUN 2025</span>
+        <h3>Securing Open Source Code: From AI Vulnerabilities to Supply Chain Defense</h3>
+        <p>Dependency risk, AI-generated vulnerabilities, secrets exposure, and real-world incidents — demonstrated with Trivy, Grype, Gitleaks, Trufflehog.</p>
+        <div class="linkrow">Watch on YouTube <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+      </a>
+
+      <a class="media-card liquid-glass" data-type="panel" href="https://www.youtube.com/watch?v=eUYiw5wdNdY" target="_blank" rel="noopener">
+        <div class="meta"><span class="source">Linux Foundation · OpenSSF Tokyo</span><span class="type panel">Panel</span></div>
+        <span class="date">JUN 2025</span>
+        <h3>Tabletop Exercise: Incident Response for Open-Source Projects</h3>
+        <p>Panelist alongside experts from Carabiner Systems, IPA, Cybertrust Japan, and SIOS Technology — simulating high-severity incident response on widely-used OSS.</p>
+        <div class="linkrow">Watch on YouTube <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+      </a>
+
+      <a class="media-card liquid-glass" data-type="feature" href="https://openssfcdjapan2025.sched.com/event/23VFd" target="_blank" rel="noopener">
+        <div class="meta"><span class="source">OpenSSF Sched · Tokyo 2025</span><span class="type feature">Listing</span></div>
+        <span class="date">JUN 2025</span>
+        <h3>Featured speaker — OpenSSF Community Days Japan</h3>
+        <p>Conference programme listing for the Linux Foundation's OpenSSF Community Days Japan, where I delivered three sessions across talks and panel.</p>
+        <div class="linkrow">View schedule <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+      </a>
+
+      <a class="media-card liquid-glass" data-type="feature" href="https://www.linkedin.com/posts/arpitjain099_its-always-interesting-to-meet-folks-from-activity-7001650671728951296-XfC1" target="_blank" rel="noopener">
+        <div class="meta"><span class="source">GitHub Universe / Cybersecurity Summit NYC</span><span class="type feature">Recap</span></div>
+        <span class="date">2022 — present</span>
+        <h3>Representing KPMG at GitHub Universe &amp; Official Cybersecurity Summit, NYC</h3>
+        <p>Sponsored attendance at multiple high-profile industry events, bringing back best practices for KPMG Japan's secure-development workflows.</p>
+        <div class="linkrow">View post <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+      </a>
+
+      <div class="placeholder liquid-glass" data-type="press">
+        <em>More mentions coming.</em>
+        Press write-ups, podcasts, and external features will appear here as I link them in. If you'd like to reach out for a quote or a guest spot, the contact details are on the home page.
+      </div>
+
+    </div>
+
+    <div style="margin-top:80px">
+      <footer class="foot">
+        <div>© 2026 Arpit Jain · arpitjain.fyi · Built in Tokyo.</div>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="index.html#log">Build log</a>
+          <a href="open-source.html">Open source</a>
+          <a href="https://github.com/arpitjain099" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=j8lq-wkAAAAJ" target="_blank" rel="noopener">Scholar</a>
+          <a href="mailto:arpitjain099@gmail.com">Email</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</section>
+
+<script>
+  const buttons = document.querySelectorAll('#filters button');
+  const cards = document.querySelectorAll('#grid > [data-type]');
+  buttons.forEach(b => b.addEventListener('click', () => {
+    buttons.forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    const f = b.dataset.filter;
+    cards.forEach(c => {
+      c.style.display = (f === 'all' || c.dataset.type === f) ? '' : 'none';
+    });
+  }));
+</script>
+</body>
+</html>
